@@ -37,7 +37,7 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionForge')
-    modImplementation "dev.ultreon:mcgdx-forge:$mcgdx_version"
+    modImplementation "dev.ultreon.mcgdx:mcgdx-forge:$mcgdx_version"
 }
 
 processResources {

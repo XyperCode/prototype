@@ -33,7 +33,7 @@ dependencies {
 
     common(project(path: ':common', configuration: 'namedElements')) { transitive false }
     shadowBundle project(path: ':common', configuration: 'transformProductionFabric')
-    modImplementation "dev.ultreon:mcgdx-fabric:$mcgdx_version"
+    modImplementation "dev.ultreon.mcgdx:mcgdx-fabric:$mcgdx_version"
 }
 
 processResources {
