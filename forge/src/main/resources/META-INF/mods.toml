@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[48,)"
+#issueTrackerURL = ""
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "prototype"
+version = "${version}"
+displayName = "prototype"
+authors = "Xyper"
+description = '''
+
+'''
+#logoFile = ""
+
+[[dependencies.prototype]]
+modId = "forge"
+mandatory = true
+versionRange = "[48,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.prototype]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.2,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.prototype]]
+modId = "architectury"
+mandatory = true
+versionRange = "[10.1.20,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.prototype]]
+modId = "mcgdx"
+mandatory = true
+versionRange = "[0,)"
+ordering = "AFTER"
+side = "BOTH"
